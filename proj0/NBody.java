@@ -32,6 +32,7 @@ public class NBody {
 		StdDraw.setScale(-radius, radius);
 		StdDraw.clear();
 		StdDraw.picture(0,0, "./images/starfield.jpg");
+		StdAudio.play("./audio/2001.mid"); 
 		int nums = planets.length;
 		for (int i = 0; i < nums; i ++) {
 			planets[i].draw();
